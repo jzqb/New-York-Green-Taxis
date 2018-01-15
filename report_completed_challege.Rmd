@@ -286,7 +286,7 @@ OPTION B: Visualization - Because there is always a story with a picture.
 
 ## Structure of the Repository
 
-
+![repository structure](plots/repo_structure.png)
 
 ## Running the Code
 

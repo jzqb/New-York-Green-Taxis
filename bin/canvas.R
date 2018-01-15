@@ -244,3 +244,26 @@ ggmap(map) +
 #Set the pointer from (y,x) => (yend,xend) using geom-segment
 ggmap(map, extent = "device", ylab = "lat", xlab = "lon") + 
   geom_segment(aes(y = geo$lon, x = geo$lat, yend = geo$lonend, xend = geo$latend))
+
+
+.   
+|--- capone_ds_challenge   ## home directory / working directory   
+|    |--- bin                    ## core solutions to problems   
+|    |    |ques_1.R                        ## question 1 solution   
+|    |    |ques_2.R                        ## question 2 solution   
+|    |    |ques_3.R                        ## question 3 solution   
+|    |    |ques_4.R                        ## question 4 solution   
+|    |    |ques_5.R                        ## question 5 solution   
+|    |    |ques_5.R                        ## question 5 solution   
+|    |    |libraries.R                     ## requirements in R   
+|    |    |canvas.R                        ## junk code that I used to experiment   
+|    |    |training_model.py               ## linear and random forest model Py 2.7   
+|    |    |make_predictions.py             ## make predictions on new data   
+|    |--- model_results          ## training results [accuracy] for random forest   
+|    |--- plots                  ## figures used to generate the report   
+|    |--- LICENSE                ## MIT   
+|    |--- README.md              ## nothing here   
+|    |--- data_dictionary_trip_records_green.pdf   
+|    |--- generate_data_model.R  ## creating data for making predictions   
+|    |--- report_completed_challege.Rmd   
+|    |--- report_completed_challege.html   
